@@ -3,38 +3,389 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Chandreyee</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css">
     <link rel="icon" href="images/favicon.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="body">
     <main>
+        <div class="landingPg">
+            <div class="navbar">
+                <div class="logo">
+                    <img id="myLogo" src="images/favicon.png" alt="logo">
+                </div>
+                <div id="options">
+                    <div class="circle dot1"></div>
+                    <div class="abtButton">
+                        <button type="button" id="button1" id="abtButton"><span class="underline">A</span>bout</button>
+                    </div>
+                    <div class="circle dot2"></div>
+                    <div class="wrkBbutton">
+                        <button type="button" id="button2"><span class="underline">W</span>ork</button>
+                    </div>
+                    <div class="circle dot3"></div>
+                </div>
+                <div class="contactButton">
+                    <button type="button" id="button3">Contact Me</button>
+                </div>
+            </div>
+    
+            <div class="line">
+    
+            </div>
+            <div class="container2">
+                <div class="row">
+                    <div><h1 class="name" id="fname">CHANDREYEE</h1></div>
+                    <div><h1 class="adj" id="adj1">DEVELOPER</h1></div>
+                </div>
+                <div class="row">
+                    <div><h1 class="adj" id="adj2">DESIGNER</h1></div>
+                    <div><h1 class="name" id="lname">SHOME.</h1></div>
+                </div>
+            </div>
+        </div>
 
-        <div class="navbar">
-            <div>
-                <img id="logo" src="images/favicon.png" alt="logo">
+        <div class="container3">
+            <div class="aboutMe hidden">
+                <div class="intro">
+                    <p id="intro">I am a passionate <span style="color:#8E77B0">Poster </span> & <span style="color:#8E77B0">Product</span> Designer & Developer.</p>
+                </div>
+                <img src="images/flower.svg" alt="flower" id="flower">
             </div>
-            <div class="button">
-                <button type="button" id="button">About</button>
+            <div class="imgContainer hidden">
+                <img src="images/myImage.jpeg" alt="myImage" id="myImage">
+            </div>
+            <div class="socials hidden">
+                <div></div>
+                <button type="button" class="socialsbutton" id="instagram">Instagram</button>
+                <button type="button" class="socialsbutton" id="twitter">Twitter</button>
+                <button type="button" class="socialsbutton" id="linkedin">Linkedin</button>
+                <div class="flower2">
+                    <img src="images/flower2.svg" alt="flower" id="flower2">
+                </div>
             </div>
         </div>
-        <div class="line">
+        <!-- <div class="infiniteScroll">
+            <div class="wrapper">
+                <div class="item item1">Product Design</div>
+                <div class="item item2">UI/UX</div>
+                <div class="item item3">Poster Design</div>
+                <div class="item item4">Product Design</div>
+                <div class="item item5">UI/UX</div>
+                <div class="item item6">Poster Design</div>
+                <div class="item item7">Product Design</div>
+                <div class="item item8">UI/UX</div>
+              </div>
+        </div> -->
 
-        </div>
-        <div class="container2">
-            <div class="row">
-                <div><h1 class="name" id="fname">CHANDREYEE</h1></div>
-                <div><h1 class="adj" id="adj1">DEVELOPER</h1></div>
+        <div class="infiniteScroll">
+            <div class="wrapper">
+                <div class="item item1">Product Design</div>
+                <div class="item item2" id="asterick">*</div>
+                <div class="item item3">UI/UX</div>
+                <div class="item item4" id="asterick">*</div>
+                <div class="item item5">Poster Design</div>
+                <div class="item item6" id="asterick">*</div>
+                <div class="item item7">Product Design</div>
+                <div class="item item8" id="asterick">*</div>
+                <div class="item item9">UI/UX</div>
+                <div class="item item10" id="asterick">*</div>
+                <div class="item item11">Poster Design</div>
+                <div class="item item12" id="asterick">*</div>
             </div>
-            <div class="row">
-                <div><h1 class="adj" id="adj2">DESIGNER</h1></div>
-                <div><h1 class="name" id="lname">SHOME.</h1></div>
+        </div>
+        <div class="worksCont1">
+            <!-- <div class="sticky">
+
+            </div> -->
+            <div class="work">
+                <div class="desc">
+                    <h1 class="descHeading">Sylvia</h1>
+                    <p class="descText">A number system converter website. <br>It is a single page website design for desktop.</p>
+                    <br>
+                    <br>
+                    <!-- <ul>
+                        <li>
+                            <p class="descText">The first image shows the <span style="color:#b4a2ce">Website design</span>.</p>
+                        </li>
+                        <li>
+                            <p class="descText">The second image shows the design for the <span style="color:#b4a2ce">Team Description</span> page.</p>
+                        </li>
+                    </ul> -->
+                    <p class="descText p p1">The first video shows the <span style="color:#b4a2ce">Website design</span>.</p>
+                    <p class="descText p p2">The second video shows the design for the <span style="color:#b4a2ce">Team Description</span> page.</p>
+                    <p class="workLink">You can check out the <a href="https://www.figma.com/proto/OcOjAqNivosbmzZQ6Mb6CG/Numeric2-(desktop)?page-id=0%3A1&node-id=18-374&viewport=-1125%2C739%2C0.31&t=O0jVT2FSgAV5arm6-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=18%3A374"><span style="color:#8E77B0">Figma</span></a> link.</p>
+                </div>
+                <div class="workVidCont1">
+                    <!-- <img src="images/Sylvia.png" alt="" id="workImg"> -->
+                    <!-- <img src="images/teamDesc.png" alt="" id="workImg"> -->
+                    <video controls autoplay loop id="workVid11">
+                        <source src="videos/Page 1 -Sylvia (desktop) - Figma 2024-07-11 00-47-11 (online-video-cutter.com).mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <video controls autoplay loop id="workVid12">
+                        <source src="videos/Page 1 -Sylvia [About-Team_Page] (desktop) - Figma 2024-07-11 00-49-18 (online-video-cutter.com).mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <div class="work">
+                <div class="desc">
+                    <h1 class="descHeading">Noor</h1>
+                    <p class="descText">A number system converter website. <br>It is a single page website design for desktop.</p>
+                    <p class="workLink">You can check out the <a href="https://www.figma.com/proto/kaE0bRiUwv7GbYJV00ZNQS/NOOR-(Website_2ndPrototype)?page-id=0%3A1&node-id=215-516&viewport=193%2C-1568%2C0.07&t=rOb8NuOPVmDwfcyv-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=215%3A516"><span style="color:#8E77B0">Figma</span></a> link.</p>
+                </div>
+                <div class="workVidCont2">
+                    <!-- <img src="images/Sylvia.png" alt="" id="workImg"> -->
+                    <video controls autoplay loop id="workVid21">
+                        <source src="videos/Page 1 - NOOR (Website_2ndPrototype) - Figma 2024-07-11 00-42-31 (online-video-cutter.com).mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <div class="work">
+                <div class="desc">
+                    <h1 class="descHeading">Blood Management System</h1>
+                    <p class="descText">A number system converter website. <br>It is a single page website design for desktop.</p>
+                </div>
+                <div class="workVidCont3">
+                    <!-- <img src="images/Sylvia.png" alt="" id="workImg"> -->
+                    <video controls autoplay loop id="workVid31">
+                        <source src="videos/Page 1 - BloodManagementSystem - Figma 2024-07-11 01-05-03 (online-video-cutter.com).mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <img src="images/BloodBankManagementSystem_serverSideTemplate.png" alt="" id="workImg">
+                </div>
+            </div>
+            <div class="work">
+                <div class="desc">
+                    <h1 class="descHeading">LitSync</h1>
+                    <p class="descText">A number system converter website. <br>It is a single page website design for desktop.</p>
+                </div>
+                <div class="workVidCont4">
+                    <!-- <img src="images/Sylvia.png" alt="" id="workImg"> -->
+                    <video controls autoplay loop id="workVid41">
+                        <source src="videos/FlipbookAndTelevsion_SkepsisProjectBookfair2024 - Figma 2024-07-11 01-40-45 (online-video-cutter.com).mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <div class="work">
+                <div class="desc">
+                    <h1 class="descHeading">Radio</h1>
+                    <p class="descText">A number system converter website. <br>It is a single page website design for desktop.</p>
+                </div>
+                <div class="workVidCont5">
+                    <!-- <img src="images/Sylvia.png" alt="" id="workImg"> -->
+                    <video controls autoplay loop id="workVid51">
+                        <source src="videos/Page 1 - Radio - Figma 2024-07-11 01-11-47 (online-video-cutter.com).mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
             </div>
         </div>
+        <div class="worksCont2">
+            <div class="worksContPosters">
+                <div id="smallBox2">
+                    <h1>Posters</h1>
+                </div>
+                <div class="poster">
+                    <img src="images/Aditya L1 (final).png" alt="poster1" class="myPoster">
+                </div>
+                <div class="poster">
+                    <img src="images/ml.png" alt="poster2" class="myPoster">
+                </div>
+                <div class="poster">
+                    <img src="images/rath3.png" alt="poster3" class="myPoster">
+                </div>
+                <div class="poster">
+                    <img src="images/RathYatra.png" alt="poster4" class="myPoster">
+                </div>
+                <div class="poster">
+                    <img src="images/SALESFORCE.png" alt="poster5" class="myPoster">
+                </div>
+            </div>
+            <div class="worksContAndroid">
+                <div class="work">
+                    <div class="desc">
+                        <h1 class="descHeading">LitSync</h1>
+                        <p class="descText">A number system converter website. <br>It is a single page website design for desktop.</p>
+                    </div>
+                    <div class="workVidCont6">
+                        <!-- <img src="images/Sylvia.png" alt="" id="workImg"> -->
+                        <video controls autoplay loop id="workVid61">
+                            <source src="videos/Page 1 - NOOR (Android_1stPrototype) - Figma 2024-07-11 00-28-52 (online-video-cutter.com) (1).mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
     </main>
-    <script src="app.js"></script>
 </body>
 </html>
+
+
+<!-- <div class="works">
+            <div class="work">
+                <div class="description">
+                    <h1 class="imgHeading">Heading</h1>
+                    <p class="imgDesc">Duis ut ante ut ligula tincidunt ultricies. Donec iaculis consequat ornare. Donec interdum ultricies pellentesque. Praesent at iaculis velit, consectetur elementum nibh. Integer pharetra velit vitae est lacinia venenatis. Nunc fringilla lacus porttitor, placerat quam ac, cursus nunc. Ut at pharetra libero.</p>
+                </div>
+                <div class="images">
+                    <div><img src="images/websiteDesign1.png" alt="websiteDesign1" class="img"></div>
+                </div>
+            </div>
+            <div class="work">
+                <div class="description">
+                    <h1 class="imgHeading">Heading</h1>
+                    <p class="imgDesc">Duis ut ante ut ligula tincidunt ultricies. Donec iaculis consequat ornare. Donec interdum ultricies pellentesque. Praesent at iaculis velit, consectetur elementum nibh. Integer pharetra velit vitae est lacinia venenatis. Nunc fringilla lacus porttitor, placerat quam ac, cursus nunc. Ut at pharetra libero.</p>
+                </div>
+                <div class="images">
+                    <div><img src="images/websiteDesign1.png" alt="websiteDesign1" class="img"></div>
+                </div>
+            </div>
+            <div class="work">
+                <div class="description">
+                    <h1 class="imgHeading">Heading</h1>
+                    <p class="imgDesc">Duis ut ante ut ligula tincidunt ultricies. Donec iaculis consequat ornare. Donec interdum ultricies pellentesque. Praesent at iaculis velit, consectetur elementum nibh. Integer pharetra velit vitae est lacinia venenatis. Nunc fringilla lacus porttitor, placerat quam ac, cursus nunc. Ut at pharetra libero.</p>
+                </div>
+                <div class="images">
+                    <div><img src="images/websiteDesign1.png" alt="websiteDesign1" class="img"></div>
+                </div>
+            </div>
+            <div class="work">
+                <div class="description">
+                    <h1 class="imgHeading">Heading</h1>
+                    <p class="imgDesc">Duis ut ante ut ligula tincidunt ultricies. Donec iaculis consequat ornare. Donec interdum ultricies pellentesque. Praesent at iaculis velit, consectetur elementum nibh. Integer pharetra velit vitae est lacinia venenatis. Nunc fringilla lacus porttitor, placerat quam ac, cursus nunc. Ut at pharetra libero.</p>
+                </div>
+                <div class="images">
+                    <div><img src="images/websiteDesign1.png" alt="websiteDesign1" class="img"></div>
+                </div>
+            </div>
+            <div class="work">
+                <div class="description">
+                    <h1 class="imgHeading">Heading</h1>
+                    <p class="imgDesc">Duis ut ante ut ligula tincidunt ultricies. Donec iaculis consequat ornare. Donec interdum ultricies pellentesque. Praesent at iaculis velit, consectetur elementum nibh. Integer pharetra velit vitae est lacinia venenatis. Nunc fringilla lacus porttitor, placerat quam ac, cursus nunc. Ut at pharetra libero.</p>
+                </div>
+                <div class="images">
+                    <div><img src="images/websiteDesign1.png" alt="websiteDesign1" class="img"></div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- <div class="workContainer">
+            <div class="slider">
+                <div class="card">
+                    <img src="images/websiteDesign1.png" alt="websiteDesign1" class="img">
+                    <div class="copy">
+                        <h1 class="imgHeading">Heading</h1>
+                        <p class="imgDesc">Duis ut ante ut ligula tincidunt ultricies. Donec iaculis consequat ornare. Donec interdum ultricies pellentesque. Praesent at iaculis velit, consectetur elementum nibh. Integer pharetra velit vitae est lacinia venenatis. Nunc fringilla lacus porttitor, placerat quam ac, cursus nunc. Ut at pharetra libero.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/websiteDesign1.png" alt="websiteDesign1" class="img">
+                    <div class="copy">
+                        <h1 class="imgHeading">Heading</h1>
+                        <p class="imgDesc">Duis ut ante ut ligula tincidunt ultricies. Donec iaculis consequat ornare. Donec interdum ultricies pellentesque. Praesent at iaculis velit, consectetur elementum nibh. Integer pharetra velit vitae est lacinia venenatis. Nunc fringilla lacus porttitor, placerat quam ac, cursus nunc. Ut at pharetra libero.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/websiteDesign1.png" alt="websiteDesign1" class="img">
+                    <div class="copy">
+                        <h1 class="imgHeading">Heading</h1>
+                        <p class="imgDesc">Duis ut ante ut ligula tincidunt ultricies. Donec iaculis consequat ornare. Donec interdum ultricies pellentesque. Praesent at iaculis velit, consectetur elementum nibh. Integer pharetra velit vitae est lacinia venenatis. Nunc fringilla lacus porttitor, placerat quam ac, cursus nunc. Ut at pharetra libero.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/websiteDesign1.png" alt="websiteDesign1" class="img">
+                    <div class="copy">
+                        <h1 class="imgHeading">Heading</h1>
+                        <p class="imgDesc">Duis ut ante ut ligula tincidunt ultricies. Donec iaculis consequat ornare. Donec interdum ultricies pellentesque. Praesent at iaculis velit, consectetur elementum nibh. Integer pharetra velit vitae est lacinia venenatis. Nunc fringilla lacus porttitor, placerat quam ac, cursus nunc. Ut at pharetra libero.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/websiteDesign1.png" alt="websiteDesign1" class="img">
+                    <div class="copy">
+                        <h1 class="imgHeading">Heading</h1>
+                        <p class="imgDesc">Duis ut ante ut ligula tincidunt ultricies. Donec iaculis consequat ornare. Donec interdum ultricies pellentesque. Praesent at iaculis velit, consectetur elementum nibh. Integer pharetra velit vitae est lacinia venenatis. Nunc fringilla lacus porttitor, placerat quam ac, cursus nunc. Ut at pharetra libero.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/CustomEase.min.js"></script> -->
+
+
+
+<!-- <div class="work">
+                <div class="workImage">
+                    <img class="Image" src="images/websiteDesign1.png" alt="work-Image">
+                </div>
+                <div class="workDesc">
+                    <div class="header">
+                        <p><h2>Title</h2></p>
+                    </div>
+                    <div class="textBody">
+
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <div class="workImage">
+                    <img class="Image" src="images/websiteDesign1.png" alt="work-Image">
+                </div>
+                <div class="workDesc">
+                    <div class="header">
+                        <p><h2>Title</h2></p>
+                    </div>
+                    <div class="textBody">
+
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <div class="workImage">
+                    <img class="Image" src="images/websiteDesign1.png" alt="work-Image">
+                </div>
+                <div class="workDesc">
+                    <div class="header">
+                        <p><h2>Title</h2></p>
+                    </div>
+                    <div class="textBody">
+
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <div class="workImage">
+                    <img class="Image" src="images/websiteDesign1.png" alt="work-Image">
+                </div>
+                <div class="workDesc">
+                    <div class="header">
+                        <p><h2>Title</h2></p>
+                    </div>
+                    <div class="textBody">
+
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <div class="workImage">
+                    <img class="Image" src="images/websiteDesign1.png" alt="work-Image">
+                </div>
+                <div class="workDesc">
+                    <div class="header">
+                        <p><h2>Title</h2></p>
+                    </div>
+                    <div class="textBody">
+
+                    </div>
+                </div>
+            </div> --> 
