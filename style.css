@@ -24,7 +24,7 @@
     margin: 20px;
     padding-bottom: 160px;
     background-color: #0e0e0e;
-    border: 2px solid rgb(98, 89, 107);
+    border: 2px solid rgb(51, 51, 51);
     border-radius:20px;
 }
 .name {
@@ -51,7 +51,7 @@
     align-items: center;
  }
  .aboutMe{
-    border: 2px solid rgb(98, 89, 107);
+    border: 2px solid rgb(51, 51, 51);
     border-radius:20px;
     height: 500px;
     width: 51vw;
@@ -82,10 +82,11 @@
     overflow-y:hidden;
  }
  .flower2{
-    border: 2px solid rgb(98, 89, 107);
+    border: 2px solid rgb(51, 51, 51);
     border-radius:20px;
     padding: 10px;
-    margin:10px 10px 10px 10px;
+    padding-top: 20px;
+    /* margin-top:20px; */
     height: 300px;
  }
  #flower2{
@@ -95,11 +96,11 @@
     overflow-y:hidden;
  }
  .imgContainer{
-    border: 2px solid rgb(98, 89, 107);
+    border: 2px solid rgb(51, 51, 51);
     border-radius:20px;
  }
  .socials{
-    border: 2px solid rgb(98, 89, 107);
+    border: 2px solid rgb(51, 51, 51);
     border-radius:20px;
     height: 500px;
     width: 15vw;
@@ -167,6 +168,7 @@
     margin-left: 25px;
     margin-right: 25px;
     margin-top: -10px;
+    cursor: none;
 }
 #button2{
     font-family: "Josefin Sans", sans-serif;
@@ -178,6 +180,7 @@
     margin-left: 25px;
     margin-right: 25px;
     margin-top: -10px;
+    cursor: none;
 }
 #button3{
     font-family: "Josefin Sans", sans-serif;
@@ -190,7 +193,60 @@
     margin-left: 410px;
     margin-right: 25px;
     margin-top: 30px;
+    cursor:none;
+    position: relative; /* Ensure it is positioned relative */
+    overflow: hidden;
 }
+
+/* .contactButton {
+  position: relative;
+} */
+/* span{
+  background-color: #cdcdcd;
+  color:#414141;
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+#button3:hover span{
+  width: 100%;
+} */
+
+/* .contactButton{
+  /* position: absolute; */
+  /* margin-top:32px;
+  margin-left: 150px;
+  transform: translate(-50%,-50%)
+} */ 
+#button3{
+  font-family: "Josefin Sans", sans-serif;
+  border-color: #cdcdcd;
+  padding: 10px 20px 5px 20px;
+  border-radius: 20px;
+  background-color: transparent;
+  font-size: 16px;
+  color: #cdcdcd;
+  margin-left: 1280px;
+  margin-right: 25px;
+  margin-top: 20px;
+  cursor:none;
+  position: relative; /* Ensure it is positioned relative */
+  overflow: hidden;
+  transition: 1s all ease;
+}
+#button3::before{
+  background: #cdcdcd;
+  content: "";
+  position:absolute;
+  margin-top:32px;
+  margin-left: 150px;
+  transform: translate(-50%, -50%);
+}
+
 .underline {
     text-decoration: underline;
 }
@@ -212,7 +268,7 @@
     margin: 20px;
     height: 100px;
     background-color: #0e0e0e;
-    border: 2px solid rgb(98, 89, 107);
+    border: 2px solid rgb(51, 51, 51);
     border-radius:20px;
     overflow-y: hidden;
 }
@@ -437,7 +493,7 @@
   margin: 20px;
   height: 600px;
   background-color: #0e0e0e;
-  border: 2px solid rgb(98, 89, 107);
+  border: 2px solid rgb(51, 51, 51);
   border-radius:20px;
   overflow-y:scroll;
   /* display: flex;
@@ -447,7 +503,7 @@
   margin: 20px;
   height: 600px;
   background-color: #0e0e0e;
-  border: 2px solid rgb(98, 89, 107);
+  border: 2px solid rgb(51, 51, 51);
   border-radius:20px;
   display: flex;
   flex-direction: row;
@@ -458,7 +514,7 @@
   /* margin-top: 60px; */
   border-radius:20px;
   background-color: #0e0e0e;
-  border: 2px solid rgb(98, 89, 107);
+  border: 2px solid rgb(51, 51, 51);
   /* display: flex; */
   /* align-items: center; */
 } 
@@ -475,7 +531,7 @@
   /* margin-top: 60px; */
   border-radius:20px;
   background-color: #0e0e0e;
-  border: 2px solid rgb(98, 89, 107);
+  border: 2px solid rgb(51, 51, 51);
   overflow-y: hidden;
 }
 .work{
@@ -527,7 +583,7 @@ a:link {
   align-items: center;
   justify-content: center;
   /* padding: 10px; */
-  border: 2px solid rgb(98, 89, 107);
+  border: 2px solid rgb(51, 51, 51);
   border-radius: 10px;
   /* flex-direction: column; */
   overflow-y: scroll;
@@ -541,7 +597,7 @@ a:link {
   align-items: center;
   justify-content: center;
   /* padding: 10px; */
-  border: 2px solid rgb(98, 89, 107);
+  border: 2px solid rgb(51, 51, 51);
   border-radius: 10px;
   /* flex-direction: column; */
   overflow-y: scroll;
@@ -555,7 +611,7 @@ a:link {
   align-items: center;
   justify-content: center;
   /* padding: 10px; */
-  border: 2px solid rgb(98, 89, 107);
+  border: 2px solid rgb(51, 51, 51);
   border-radius: 10px;
   /* flex-direction: column; */
   overflow-y: scroll;
@@ -569,7 +625,7 @@ a:link {
   align-items: center;
   justify-content: center;
   /* padding: 10px; */
-  border: 2px solid rgb(98, 89, 107);
+  border: 2px solid rgb(51, 51, 51);
   border-radius: 10px;
   /* flex-direction: column; */
   overflow-y: scroll;
@@ -583,7 +639,7 @@ a:link {
   align-items: center;
   justify-content: center;
   /* padding: 10px; */
-  border: 2px solid rgb(98, 89, 107);
+  border: 2px solid rgb(51, 51, 51);
   border-radius: 10px;
   /* flex-direction: column; */
   overflow-y: scroll;
@@ -597,7 +653,7 @@ a:link {
   align-items: center;
   justify-content: center;
   /* padding: 10px; */
-  border: 2px solid rgb(98, 89, 107);
+  border: 2px solid rgb(51, 51, 51);
   border-radius: 10px;
   /* flex-direction: column; */
   overflow-y: hidden;
@@ -611,7 +667,7 @@ a:link {
   /* gap:40px; */
   align-items: center;
   /* padding: 10px; */
-  border: 2px solid rgb(98, 89, 107);
+  border: 2px solid rgb(51, 51, 51);
   border-radius: 10px;
   /* flex-direction: column; */
   overflow-y: scroll;
@@ -703,29 +759,66 @@ a:link {
   /* border-radius: 20px; */
 }
 
-#smallBox2{
-  position:-webkit-sticky;
+#posterHeading{
+  position:absolute;
   /* position: sticky; */
   display: flex;
   align-items:center;
   justify-content: center;
   padding-top: 8px;
   margin-top: 15px;
-  margin-left: 380px;
-  width: 150px;
+  margin-left: 410px;
+  width: 120px;
   height: 50px;
   border-radius:15px;
   background-color: #0e0e0e;
-  border: 2px solid rgb(98, 89, 107); 
+  border: 2px solid rgb(51, 51, 51); 
   color: #8e77b0;
   font-family: "Josefin Sans", sans-serif;
+  /* font-weight:100; */
+}
+#websiteHeading{
+  position:absolute;
+  /* position: sticky; */
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  padding-top: 8px;
+  margin-top: 525px;
+  margin-left: 15px;
+  width: 250px;
+  height: 50px;
+  border-radius:15px;
+  background-color: #0e0e0e;
+  border: 2px solid rgb(51, 51, 51); 
+  color: #8e77b0;
+  font-family: "Josefin Sans", sans-serif;
+}
+#androidHeading{
+  position:absolute;
+  /* position: sticky; */
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  padding-top: 8px;
+  margin-top: 485px;
+  margin-left: 15px;
+  width: 250px;
+  height: 50px;
+  border-radius:15px;
+  background-color: #0e0e0e;
+  border: 2px solid rgb(51, 51, 51); 
+  color: #8e77b0;
+  font-family: "Josefin Sans", sans-serif;
+  /* font-size: x-large; */
+  /* font-weight: 100; */
 }
 .poster{
   height:450px;
   width: 450px;
-  border: 2px solid rgb(98, 89, 107);
+  border: 2px solid rgb(51, 51, 51);
   border-radius: 10px;
-  margin-top: 10px;
+  margin-top: 80px;
   margin-left: 47px;
   margin-bottom: 30px;
   overflow-y: hidden;
